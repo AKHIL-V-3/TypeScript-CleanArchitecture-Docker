@@ -9,7 +9,7 @@ export class userRepository implements userRepositoryInterface {
    
     async createUser(data: userEntity):Promise<any> {
 
-        // console.log(data);
+        console.log(data);
 
         try{
             const newUser = new User({   
